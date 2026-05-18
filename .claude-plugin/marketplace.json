@@ -8,7 +8,10 @@
   "plugins": [
     {
       "name": "olvm-troubleshooter",
-      "source": "./plugins/olvm-troubleshooter",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Hunndev/olvm.git"
+      },
       "description": "OLVM 사이트 등록 인터뷰, 멀티사이트 환경 관리, 도메인 지식 기반 트러블슈팅, 인쇄 가능한 현장 체크리스트. 명령어 2개(/olvm-survey, /olvm-troubleshoot) 와 스킬 2개로 구성.",
       "version": "0.1.0",
       "keywords": ["olvm", "ovirt", "virtualization", "operations", "troubleshooting", "ko"]
