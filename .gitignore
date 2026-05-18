@@ -1,0 +1,22 @@
+# OS 임시 파일
+.DS_Store
+*.swp
+*.tmp
+Thumbs.db
+
+# 에디터
+.vscode/
+.idea/
+
+# 안전 가드 — 사이트 실데이터는 절대 이 저장소에 포함 X
+# (실데이터는 ~/.olvm/sites/ 에 별도 보관)
+sites/*/
+!sites/_TEMPLATE/
+
+# 인쇄 양식 / 보고서 생성물
+printouts/
+reports/
+
+# 로컬 환경 변수
+.env
+.env.local
